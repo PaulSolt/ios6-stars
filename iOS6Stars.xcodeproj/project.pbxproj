@@ -26,6 +26,7 @@
 		BD40A7142278ACF100EB0F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD40A71A2278B41000EB0F35 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
 		BD40A71C2278B49500EB0F35 /* StarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarController.swift; sourceTree = "<group>"; };
+		BD40A71E2278BD6900EB0F35 /* FileManager.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FileManager.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		BD40A6FC2278ACEF00EB0F35 = {
 			isa = PBXGroup;
 			children = (
+				BD40A71E2278BD6900EB0F35 /* FileManager.playground */,
 				BD40A7072278ACEF00EB0F35 /* iOS6Stars */,
 				BD40A7062278ACEF00EB0F35 /* Products */,
 			);
