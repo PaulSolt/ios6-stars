@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func addStarButtonPressed(_ sender: Any) {
+        print("add star")
+    }
+    
+    @IBOutlet var nameTextField: UITextField!
+    @IBOutlet var distanceTextField: UITextField!
+    @IBOutlet var textView: UITextView!
 }
 
