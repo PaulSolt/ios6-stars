@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // starController.stars = [Star(name: "Sun", distance: 0.0)]
+        listStars()
     }
 
     @IBAction func addStarButtonPressed(_ sender: Any) {
@@ -29,6 +30,12 @@ class ViewController: UIViewController {
         //print("name: \(name) distance: \(distance)")
         starController.addStar(named: name, withDistance: distance)
         listStars()
+        clearTextFields()
+    }
+    
+    private func clearTextFields() {
+        nameTextField.text = ""
+        distanceTextField.text = ""
     }
     
     // list all of the stars we're tracking
