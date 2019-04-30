@@ -9,6 +9,6 @@
 import Foundation
 
 struct Star {
-    var name: String            // "Sun"
-    var distance: Double        // 0.0, 3.14 (Float)  3.14519 (Double)
+    var name: String
+    var distance: Double        
 }
